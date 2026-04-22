@@ -31,29 +31,33 @@ The functional components of the system include: 
 * Centralized Database.
 * The system supports both one-time services and monthly subscriptions. 
 --
+
+
 System Objectives
+--
 For the Service Provider:
-• Streamlining and managing work processes.  
-• Command and control over services and employees.  
-• Centralizing business information in one place.  
-• Improving service quality for the customer.  
-• Increasing revenue through ordering processes and subscription tracks.  
-• Optimal utilization of resources.  
+* Streamlining and managing work processes.  
+* Command and control over services and employees.  
+* Centralizing business information in one place.  
+* Improving service quality for the customer.  
+* Increasing revenue through ordering processes and subscription tracks.  
+* Optimal utilization of resources.  
 For the Customer:
 --
-• Convenient ordering of cyber services.  
-• Full transparency in the treatment process.  
-• Access to a Personal Area (Customer File) including: service history, reports, status, and payments.  
-• Receiving professional service in an organized and accessible manner.  
+* Convenient ordering of cyber services.  
+* Full transparency in the treatment process.  
+* Access to a Personal Area (Customer File) including: service history, reports, status, and payments.  
+*  Receiving professional service in an organized and accessible manner.
+  
 List of Actors for Use Cases (UC)
 --
-• Customer.  
-• Customer Service Representative.  
-• Cyber Consultant.  
-• Consultant Team Manager.  
-• Finance Manager.  
-• System Administrator.  
-• Payment System.  
-• Notification System.  
-• Report Generation System.  
-• Database.
+* Customer
+* Customer Service Representative.  
+* Cyber Consultant.  
+* Consultant Team Manager.  
+* Finance Manager.  
+* System Administrator.  
+* Payment System.  
+* Notification System.  
+* Report Generation System.  
+*  Database.
