@@ -31,7 +31,6 @@ For the Client:
     * Reports
     * Status tracking
     * PaymentsGeneral Overview of the Process
---
 The system supports a full service management process:  
 * Service Ordering: Placed by the customer.  
 * Consultant Assignment: Performed by a manager.  
