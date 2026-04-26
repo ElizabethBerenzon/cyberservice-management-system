@@ -157,6 +157,7 @@ Business Analytics
 
 
 Example Use Case: Process Payment (UC034)
+--
 
 Goal
 --
