@@ -70,19 +70,188 @@ External Systems:
 * Report Generation System
 * Central Database
 
-System Objectives
+Key Features (Business-Oriented)
 --
-For the Service Provider:
-* Streamlining and managing work processes.  
-* Command and control over services and employees.  
-* Centralizing business information in one place.  
-* Improving service quality for the customer.  
-* Increasing revenue through ordering processes and subscription tracks.  
-* Optimal utilization of resources.  
-For the Customer:
---
-* Convenient ordering of cyber services.  
-* Full transparency in the treatment process.  
-* Access to a Personal Area (Customer File) including: service history, reports, status, and payments.  
-*  Receiving professional service in an organized and accessible manner.
+* User Authentication & Role-Based Access Control
+* Client Profile Management
+* Service Catalog & Subscription Management
+* Order Management
+* Task Assignment & Workload Distribution
+* Progress Tracking & Status Updates
+* Professional Report Generation
+* Payment Processing & Billing
+* Notification & Alerts System
+* Business Analytics & Reporting
   
+Core Business Workflow
+--
+1. Client registers and logs into the system
+2. Client browses and selects a cybersecurity service
+3. Client places an order
+4. Consultant Team Manager assigns a consultant
+5. Consultant performs the service and updates progress
+6. System generates a professional report
+7. Client reviews/downloads the report
+8. Client completes payment
+   
+Use Case Structure
+--
+
+The system includes business-focused Use Cases only, where each action represents an interaction between a user (Actor) and the system.
+
+User & Access Management
+--
+
+* Register New Client
+* Authenticate User
+* Recover Password
+* Manage User Roles (Admin only)
+
+Service Management
+--
+
+* Browse Service Catalog (Client)
+* Manage Services (Admin/Manager)
+* Configure Subscriptions
+
+Orders & Task Management
+--
+
+* Place Service Order
+* Cancel Order
+* Assign Consultant (Team Manager)
+* Set Task Priority
+* Track Service Status (Client)
+* Update Work Progress (Consultant)
+* Complete Task
+
+Reports
+--
+
+* Generate Professional Report
+* Review Report (Team Manager)
+* Publish Report
+* View & Download Reports (Client)
+
+Payments & Billing
+--
+
+* Calculate Service Fees
+* Process Payment (Client)
+* View Payment History
+* Issue Receipt
+* Manage Subscription Billing
+* Process Refund (Finance Manager)
+
+Business Analytics
+--
+
+* View Business Reports (Company Executive)
+* Analyze Employee Workload
+* Service Popularity Analysis
+* Export Business Data
+
+
+
+Example Use Case: Process Payment (UC034)
+
+Goal
+--
+
+Enable a client to securely pay for a cybersecurity service.
+
+Main Flow
+--
+1. Client views unpaid orders
+2. Client selects an order
+3. System displays payment options
+4. Client enters payment details
+5. System validates input
+6. Payment is processed via external provider
+7. Order is marked as paid
+8. Receipt is generated
+9. Client receives confirmation
+
+Alternative Flows
+--
+
+* Invalid input → user corrects details
+* Payment declined → order remains unpaid
+* Connection error → payment marked as pending
+* User cancels payment
+
+Postconditions
+--
+
+* Payment recorded
+* Order updated
+* Receipt generated
+* Transaction stored
+
+
+
+System Design Principles
+--
+
+* All Use Cases represent user–system interactions
+* No internal technical processes are modeled as Use Cases
+* Clear separation between:
+    * Business roles
+    * Technical roles
+* Role-Based Access Control (RBAC) enforced
+
+
+
+Non-Functional Requirements
+--
+
+Security
+--
+
+* Encrypted communication (TLS 1.3)
+* Secure payment handling
+* Audit logging of all actions
+
+Performance
+--
+
+* Report generation under 10 seconds
+
+Reliability
+--
+
+* 99.9% availability
+
+Usability
+--
+
+* Responsive and mobile-friendly interface
+
+
+
+Architecture Components
+--
+
+* Central Database
+* Payment System Integration
+* Notification System
+* Report Generation System
+* RBAC Mechanism
+
+
+Additional Features
+--
+
+* Multi-language support (Hebrew / English)
+* Full audit trail
+* Subscription-based services
+* Clean separation between business and system logic
+
+Project Type
+--
+
+Business Analysis & System Design Project
+
+* Use Case Modeling
+* Functional Requirements
+* Process Thinking
