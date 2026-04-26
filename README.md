@@ -1,6 +1,7 @@
 #cyberservice-management-system
 
 Currently under development.Continuously improving business logic and system's structure
+The goal of this project is to apply the knowledge acquired in information system structure and design, as well as to leverage AI tools to support system analysis, modeling, and documentation processes.
 
 Course Project : Information Systems Analysis and Design
 CyberService - Cyber Security Services Management System
