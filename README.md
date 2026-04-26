@@ -115,56 +115,198 @@ The system includes business-focused Use Cases only, where each action represent
 User & Access Management
 --
 
-* Register New Client
-* Authenticate User
-* Recover Password
-* Manage User Roles (Admin only)
+Register New Client
+* Primary Actor: System Administrator
+* Supporting Actors: Central Database, Notification System
+
+User Authentication
+* Primary Actor: User (Any Role)
+* Supporting Actors: Central Database
+
+Role-Based Access Control
+* Primary Actor: System Administrator
+* Supporting Actors: Central Database
+
+Password Recovery
+* Primary Actor: User (Any Role)
+* Supporting Actors: Notification System, Central Database
+
+Update Client Profile
+* Primary Actor: Client
+* Supporting Actors: Central Database
+
+Deactivate Account
+* Primary Actor: System Administrator
+* Supporting Actors: Central Database
+
+Audit User Activity (View Logs)
+* Primary Actor: System Administrator
+* Supporting Actors: Central Database
+
 
 Service Management
 --
 
-* Browse Service Catalog (Client)
-* Manage Services (Admin/Manager)
-* Configure Subscriptions
+Browse Service Catalog
+* Primary Actor: Client
+* Supporting Actors: Central Database
+
+Add New Service
+* Primary Actor: System Administrator / Manager
+* Supporting Actors: Central Database
+
+Configure Monthly Subscriptions
+* Primary Actor: System Administrator
+* Supporting Actors: Central Database
+
+Select Service Model
+* Primary Actor: Client
+* Supporting Actors: Central Database
+
+Update Pricing
+* Primary Actor: Finance Manager
+* Supporting Actors: Central Database
+
+Archive Service
+* Primary Actor: System Administrator
+* Supporting Actors: Central Database
 
 Orders & Task Management
 --
 
-* Place Service Order
-* Cancel Order
-* Assign Consultant (Team Manager)
-* Set Task Priority
-* Track Service Status (Client)
-* Update Work Progress (Consultant)
-* Complete Task
+Place Service Order
+* Primary Actor: Client
+* Supporting Actors: Central Database
+
+Cancel Order
+* Primary Actor: Client
+* Supporting Actors: Central Database, Notification System
+
+View Active Orders
+* Primary Actor: Consultant Team Manager
+* Supporting Actors: Central Database
+
+Assign Consultant
+* Primary Actor: Consultant Team Manager
+* Supporting Actors: Central Database, Notification System
+
+Reassign Task
+* Primary Actor: Consultant Team Manager
+* Supporting Actors: Central Database
+
+Set Task Priority
+* Primary Actor: Consultant Team Manager
+* Supporting Actors: Central Database
+
+Track Process Status
+* Primary Actor: Client
+* Supporting Actors: Central Database
+
+Accept Assignment
+* Primary Actor: Cybersecurity Consultant
+* Supporting Actors: Central Database
+
+Update Work Progress
+* Primary Actor: Cybersecurity Consultant
+* Supporting Actors: Central Database
+
+Log Technical Findings
+* Primary Actor: Cybersecurity Consultant
+* Supporting Actors: Central Database
+
+Upload Supporting Documents
+* Primary Actor: Cybersecurity Consultant
+* Supporting Actors: Central Database
+
+Track Time Spent
+* Primary Actor: Cybersecurity Consultant
+* Supporting Actors: Central Database
+
+Complete Task
+* Primary Actor: Cybersecurity Consultant
+* Supporting Actors: Central Database
 
 Reports
 --
 
-* Generate Professional Report
-* Review Report (Team Manager)
-* Publish Report
-* View & Download Reports (Client)
+Generate Professional Report
+* Primary Actor: Cybersecurity Consultant
+* Supporting Actors: Report Generation System, Central Database
+
+Review Report
+* Primary Actor: Consultant Team Manager
+* Supporting Actors: Central Database
+
+Publish Report
+* Primary Actor: Cybersecurity Consultant
+* Supporting Actors: Notification System, Central Database
+
+View Service History
+* Primary Actor: Client
+* Supporting Actors: Central Database
+
+Download PDF Report
+* Primary Actor: Client
+* Supporting Actors: Central Database
+
+Notify Report Readiness
+* Primary Actor: Notification System
+* Supporting Actors: Client
 
 Payments & Billing
 --
 
-* Calculate Service Fees
-* Process Payment (Client)
-* View Payment History
-* Issue Receipt
-* Manage Subscription Billing
-* Process Refund (Finance Manager)
+Calculate Service Fees
+* Primary Actor: Finance Manager
+* Supporting Actors: Central Database
 
-Business Analytics
+Process Payment
+* Primary Actor: Client
+* Supporting Actors: Payment System, Central Database
+
+Manage Subscription Billing
+* Primary Actor: Finance Manager
+* Supporting Actors: Payment System, Central Database
+
+View Payment History
+* Primary Actor: Client
+* Supporting Actors: Central Database
+
+Issue Receipt
+* Primary Actor: Payment System
+* Supporting Actors: Client, Central Database
+
+Manual Invoicing
+* Primary Actor: Finance Manager
+* Supporting Actors: Central Database
+
+Process Refund
+* Primary Actor: Finance Manager
+* Supporting Actors: Payment System, Central Database
+
+
+Analytics & Management
 --
 
-* View Business Reports (Company Executive)
-* Analyze Employee Workload
-* Service Popularity Analysis
-* Export Business Data
+View Business Reports
+Primary Actor: Company Executive
+Supporting Actors: Central Database
 
+Analyze Employee Workload
+Primary Actor: Consultant Team Manager
+Supporting Actors: Central Database
 
+Quality Control
+Primary Actor: Consultant Team Manager
+Supporting Actors: Central Database
+
+Service Popularity Statistics
+Primary Actor: Company Executive
+Supporting Actors: Central Database
+
+Export Business Data
+Primary Actor: Company Executive
+Supporting Actors: Central Database
 
 Example Use Case: Process Payment (UC034)
 --
