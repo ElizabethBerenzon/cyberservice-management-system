@@ -10,7 +10,7 @@
 ![PlantUML](https://img.shields.io/badge/PlantUML-Modeling-red?style=for-the-badge)
 
 
-Currently under development.Continuously improving business logic and system's structure.
+
 # The goal of this project is to apply the knowledge acquired in information system structure and design, as well as to leverage AI tools to support system analysis, modeling, and documentation processes.
 
 Course Project : Information Systems Analysis and Design
@@ -555,3 +555,4 @@ extend – used for actions that happen only in specific situations
 These relationships make the system behavior clearer and more structured.
 
 <img width="499" height="608" alt="Снимок экрана 2026-04-26 в 08 16 38" src="https://github.com/user-attachments/assets/da9d060e-a8de-4e13-ad05-1311080f5292" />
+
