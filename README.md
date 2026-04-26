@@ -259,3 +259,16 @@ Business Analysis & System Design Project
 * Use Case Modeling
 * Functional Requirements
 * Process Thinking
+
+The next Step is to create Use Case Diagram, using AI tools to create the correct code on PlantUML.
+
+On the diagram the primary actors should be located on the left side and external support systems on the right side.
+
+Use Case Relationships
+--
+include – used for actions that always happen as part of a process  
+extend – used for actions that happen only in specific situations  
+
+These relationships make the system behavior clearer and more structured.
+
+<img width="499" height="608" alt="Снимок экрана 2026-04-26 в 08 16 38" src="https://github.com/user-attachments/assets/da9d060e-a8de-4e13-ad05-1311080f5292" />
